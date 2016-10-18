@@ -55,6 +55,7 @@ def line_plot_date_range(times, power_data, thermal_data, start_date, end_date, 
     plb.xlim(dateutil.parser.parse(start_date), dateutil.parser.parse(end_date))
     plb.ylim(0,85)
     plb.legend(loc='upper right')
+    plb.show()
 
 def highest_consumption_hours_centered(times, power_data, thermal_data, start_time='2/1/2016', end_time='2/8/2016'):
     start_time = dateutil.parser.parse(start_time)

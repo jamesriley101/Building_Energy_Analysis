@@ -28,4 +28,4 @@ times = power_data[0,:]
 line_plot_date_range(times, power_interval_values, thermal_interval_values, '1/1/2016', '1/4/2016', totalized_energy_values)
 
 #for both series, identify th the times centered in the highest hours of consumption during the specified interval: 
-highest_consumption_intervals(times, power_interval_values, thermal_interval_values, '3/1/2016', '3/8/2016')
+highest_consumption_hours_centered(times, power_interval_values, thermal_interval_values, '3/1/2016', '3/8/2016')
